@@ -1,0 +1,10 @@
+spring.jpa:
+  show-sql: true
+  hibernate.ddl=auto: create-drop
+
+spring.datasource:
+  platform: h2
+  url: jdbc:h2:mem:meetCode
+  username: sa
+
+spring.h2.console.enabled: true
