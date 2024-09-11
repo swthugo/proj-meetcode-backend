@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65b7f516-f808-487e-a677-8bbc7e735b1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/controller/admin/AdminProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/controller/admin/AdminProblemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/controller/user/ProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/controller/user/ProblemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ApiResponseDTO$ApiResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ApiResponseDTO$ApiResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/CompilerConsoleDTO$CompilerConsoleDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/CompilerConsoleDTO$CompilerConsoleDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/CompilerConsoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/CompilerConsoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$ProblemCreatedDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$ProblemCreatedDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$SolutionDTO$SolutionDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$SolutionDTO$SolutionDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$SolutionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$SolutionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$TestCaseDTO$TestCaseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$TestCaseDTO$TestCaseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$TestCaseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO$TestCaseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemCreatedDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$ProblemDetailDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$ProblemDetailDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$SubmissionDTO$SubmissionDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$SubmissionDTO$SubmissionDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$SubmissionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$SubmissionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$TestCaseDTO$TestCaseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$TestCaseDTO$TestCaseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$TestCaseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO$TestCaseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO$ProblemDetailEditResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO$ProblemDetailEditResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO$SubmissionDTO$SubmissionDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO$SubmissionDTO$SubmissionDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO$SubmissionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO$SubmissionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemDetailEditResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$ProblemEditDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$ProblemEditDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$SolutionDTO$SolutionDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$SolutionDTO$SolutionDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$SolutionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$SolutionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$TestCaseDTO$TestCaseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$TestCaseDTO$TestCaseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$TestCaseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO$TestCaseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemEditDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemRequestForInitDTO$ProblemRequestForInitDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemRequestForInitDTO$ProblemRequestForInitDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemRequestForInitDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemRequestForInitDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemResponseDTO$ProblemResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemResponseDTO$ProblemResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/ProblemResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/RunConsoleDTO$RunConsoleDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/RunConsoleDTO$RunConsoleDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/RunConsoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/RunConsoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SignUpRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SignUpRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SignUpResponseDTO$SignUpResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SignUpResponseDTO$SignUpResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SignUpResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SignUpResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SolutionResponseDTO$SolutionResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SolutionResponseDTO$SolutionResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SolutionResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SolutionResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SubmissionRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/SubmissionRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestConsoleDTO$TestConsoleDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestConsoleDTO$TestConsoleDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestConsoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestConsoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestExecuteDTO$TestExecuteDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestExecuteDTO$TestExecuteDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestExecuteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/TestExecuteDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/mapper/ProblemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/mapper/ProblemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/mapper/TestConsoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/dto/mapper/TestConsoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/firebase/FireBaseAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/firebase/FireBaseAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Problem$ProblemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Problem$ProblemBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Solution$SolutionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Solution$SolutionBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Submission$SubmissionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Submission$SubmissionBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Submission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/Submission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/TestCase$TestCaseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/TestCase$TestCaseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/UserProblem$UserProblemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/UserProblem$UserProblemBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/UserProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/UserProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/UserProblemId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/UserProblemId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/enumType/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/enumType/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/enumType/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/model/enumType/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/CodeExecutionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/CodeExecutionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/FileEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/FileEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/RunConsoleDTOTEst$RunConsoleDTOTEstBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/RunConsoleDTOTEst$RunConsoleDTOTEstBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/RunConsoleDTOTEst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/RunConsoleDTOTEst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/TestEnv$TestEnvBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/TestEnv$TestEnvBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/TestEnv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/CodeExecution/TestEnv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/InitializationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/InitializationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/ProblemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/ProblemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/UserProblemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/hugosiu/meetCode/service/UserProblemService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2luL7POTvjb1jKVTGvsEBHeuysX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.MeetCodeApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hugosiu/Codes/Guidemy/projects/proj-meetcode-github/proj-meetcode-backend",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MeetCodeApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="ADMIN_LOGIN_CODE" value="MeetCode" />
+        <env name="CORS_ALLOWED_ORIGINS" value="http://localhost:3000" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="dev.hugosiu.meetCode.MeetCodeApplication" />
+      <module name="meetCode-backend" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="proj-meetcode-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="proj-meetcode-backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65b7f516-f808-487e-a677-8bbc7e735b1d" name="Changes" comment="" />
+      <created>1726024846678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726024846678</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1726024873480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726024873480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1726024910313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726024910313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1726025206337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726025206337</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
