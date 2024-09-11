@@ -15,6 +15,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Table(name = "testCase")
 public class TestCase {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
@@ -27,4 +28,5 @@ public class TestCase {
   @NotBlank
   @Column(nullable = false, length = 2550)
   private String testScript;
+
 }

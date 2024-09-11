@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Table(name = "problem")
 public class Problem {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
@@ -39,4 +40,5 @@ public class Problem {
 
   @Column(nullable = false, length = 2550)
   private String placeholder;
+
 }

@@ -3,7 +3,7 @@ package dev.hugosiu.meetCode.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import dev.hugosiu.meetCode.constant.SampleProblems;
 import dev.hugosiu.meetCode.constant.UserConstant;
-import dev.hugosiu.meetCode.dto.ProblemRequestCopyDTO;
+import dev.hugosiu.meetCode.dto.ProblemRequestForInitDTO;
 import dev.hugosiu.meetCode.exception.ResourceNotFoundException;
 import dev.hugosiu.meetCode.model.Problem;
 import dev.hugosiu.meetCode.model.Solution;
@@ -64,7 +64,7 @@ public class InitializationService {
   }
 
   private void initProblem(User user) throws ResourceNotFoundException, IOException {
-    for (ProblemRequestCopyDTO p : SampleProblems.PROBLEMS) {
+    for (ProblemRequestForInitDTO p : SampleProblems.PROBLEMS) {
 
       Problem problem = Problem.builder()
               .title(p.getTitle())

@@ -5,7 +5,6 @@ import dev.hugosiu.meetCode.model.enumType.Progress;
 import dev.hugosiu.meetCode.model.enumType.Result;
 import lombok.Builder;
 import lombok.Data;
-import org.springframework.data.annotation.CreatedDate;
 
 import java.time.LocalDateTime;
 import java.util.List;

@@ -11,7 +11,6 @@ import org.springframework.data.annotation.CreatedDate;
 
 import java.time.LocalDateTime;
 
-
 @Entity
 @Data
 @Builder
@@ -19,6 +18,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Table(name = "user_problem")
 public class UserProblem {
+
   @Id
   private UserProblemId id;
 
@@ -38,4 +38,5 @@ public class UserProblem {
 
   @CreatedDate
   private LocalDateTime createAt;
+
 }

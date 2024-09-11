@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class TestConsoleDTO {
+
   private boolean success;
 
   private String consoleMessage;
@@ -17,4 +18,5 @@ public class TestConsoleDTO {
   private String solution;
 
   private String testScript;
+
 }

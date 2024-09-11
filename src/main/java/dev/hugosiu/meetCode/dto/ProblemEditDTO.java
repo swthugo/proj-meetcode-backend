@@ -1,7 +1,6 @@
 package dev.hugosiu.meetCode.dto;
 
 import dev.hugosiu.meetCode.model.enumType.Level;
-import dev.hugosiu.meetCode.model.enumType.Result;
 import lombok.Builder;
 import lombok.Data;
 

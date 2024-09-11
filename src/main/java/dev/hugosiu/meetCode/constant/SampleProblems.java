@@ -1,52 +1,12 @@
 package dev.hugosiu.meetCode.constant;
 
-import dev.hugosiu.meetCode.dto.ProblemRequestCopyDTO;
+import dev.hugosiu.meetCode.dto.ProblemRequestForInitDTO;
 import dev.hugosiu.meetCode.model.enumType.Level;
 
 public class SampleProblems {
 
-  public static final String TEST_SCRIPT = "import org.junit.jupiter.api.DisplayName;\n" +
-          "import org.junit.jupiter.api.Test;\n" +
-          "import org.junit.jupiter.params.ParameterizedTest;\n" +
-          "import org.junit.jupiter.params.provider.CsvSource;\n" +
-          "import static org.junit.jupiter.api.Assertions.assertEquals;\n" +
-          "\n" +
-          "class ProblemTest {\n" +
-          "    private final Solution calculator = new Solution();\n" +
-          "    @Test\n" +
-          "    @DisplayName(\"1 + 2 = 3\")\n" +
-          "    void addsTwoNumbers() {\n" +
-          "        assertEquals(3, calculator.add(1, 2), \"1 + 2 should equal 3\");\n" +
-          "    }\n" +
-          "    @Test\n" +
-          "    @DisplayName(\"3 - 1 = 2\")\n" +
-          "    void minusTwoNumbers() {\n" +
-          "        assertEquals(2, calculator.minus(3, 1), \"3 - 1 should equal 2\");\n" +
-          "    }\n" +
-          "    @ParameterizedTest(name = \"{0} + {1} = {2}\")\n" +
-          "    @CsvSource({\n" +
-          "            \"0,    1,   1\",\n" +
-          "            \"1,    2,   3\",\n" +
-          "            \"49,  51, 100\",\n" +
-          "            \"1,  100, 101\"\n" +
-          "    })\n" +
-          "    void add(int first, int second, int expectedResult) {\n" +
-          "        assertEquals(expectedResult, calculator.add(first, second),\n" +
-          "                () -> first + \" + \" + second + \" should equal \" + expectedResult);\n" +
-          "    }\n" +
-          "}";
-
-
-  public static final ProblemRequestCopyDTO[] PROBLEMS = new ProblemRequestCopyDTO[]{
-//          new ProblemRequestCopyDTO("Two Sum",
-//                  "Given an array of integers `nums` and an `integer` target, return _indices of the two numbers such that they add up to target._\\n\\nYou may assume that each input would have **exactly one solution**, and you may not use the same element twice.\\n\\nYou can return the answer in any order.\\n\\n\\n**Example 1:**\\n```\\nInput: nums = [2,7,11,15], target = 9\\nOutput: [0,1]\\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\\n```\\n**Example 2:**\\n```\\nInput: nums = [3,2,4], target = 6\\nOutput: [1,2]\\n```\\n**Example 3:**\\n```\\nInput: nums = [3,3], target = 6\\nOutput: [0,1]\\n```\\n\\n**Constraints:**\\n\\n- `2 <= nums.length <= 104`\\n- `109 <= nums[i] <= 109`\\n- `109 <= target <= 109`\\n- **Only one valid answer exists.**\\n \\n\\n###### Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?",
-//                  "EASY",
-//                  true,
-//                  "class Solution {\n\n }",
-//                  "class Solution {\n\n    public int add(int a, int b) { \n        return a + b; \n    } \n    \n    public int minus(int a, int b){\n        return a - b ;\n    }\n\n}",
-//                  TEST_SCRIPT)
-//
-          ProblemRequestCopyDTO.builder()
+  public static final ProblemRequestForInitDTO[] PROBLEMS = new ProblemRequestForInitDTO[]{
+          ProblemRequestForInitDTO.builder()
                   .title("Two Sum")
                   .description("Given an array of integers `nums` and an `integer` target, return _indices of the two numbers such that they add up to target._\n\nYou may assume that each input would have **exactly one solution**, and you may not use the same element twice.\n\nYou can return the answer in any order.\n\n\n**Example 1:**\n```\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\n```\n**Example 2:**\n```\nInput: nums = [3,2,4], target = 6\nOutput: [1,2]\n```\n**Example 3:**\n```\nInput: nums = [3,3], target = 6\nOutput: [0,1]\n```\n\n**Constraints:**\n\n- `2 <= nums.length <= 104`\n- `109 <= nums[i] <= 109`\n- `109 <= target <= 109`\n- **Only one valid answer exists.**\n \n\n###### Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?")
                   .level(Level.EASY.getValue())
@@ -85,7 +45,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Reverse Integer")
                   .description("Given a signed 32-bit integer `x`, return `x` with its digits reversed. If reversing `x` causes the value to go outside the signed 32-bit integer range `[-231, 231 - 1]`, then return `0`.\n" +
                           "\n" +
@@ -142,7 +102,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Palindrome Number")
                   .description("Determine whether an integer is a palindrome.")
                   .level(Level.HARD.getValue())
@@ -161,7 +121,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Merge Two Sorted Lists")
                   .description("Merge two sorted linked lists and return it as a new sorted list.")
                   .level(Level.EASY.getValue())
@@ -180,7 +140,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Best Time to Buy and Sell Stock")
                   .description("Find the maximum profit you can achieve from this transaction.")
                   .level(Level.EASY.getValue())
@@ -199,7 +159,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Valid Parentheses")
                   .description("Determine if the input string is valid.")
                   .level(Level.EASY.getValue())
@@ -218,7 +178,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Remove Duplicates from Sorted Array")
                   .description("Remove duplicates in place from a sorted array.")
                   .level(Level.EASY.getValue())
@@ -237,7 +197,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Implement strStr()")
                   .description("Return the index of the first occurrence of needle in haystack.")
                   .level(Level.EASY.getValue())
@@ -256,7 +216,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Count and Say")
                   .description("The count-and-say sequence is defined starting with '1'.")
                   .level(Level.EASY.getValue())
@@ -275,7 +235,7 @@ public class SampleProblems {
                           "}")
                   .build(),
 
-          ProblemRequestCopyDTO.builder()
+          ProblemRequestForInitDTO.builder()
                   .title("Maximum Subarray")
                   .description("Find the contiguous subarray with the largest sum.")
                   .level(Level.EASY.getValue())

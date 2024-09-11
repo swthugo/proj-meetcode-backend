@@ -22,7 +22,7 @@ public enum Level {
   }
 
   @Override
-  public String toString () {
+  public String toString() {
     return value;
   }
 }

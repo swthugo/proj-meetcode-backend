@@ -8,9 +8,15 @@ import lombok.Data;
 @Data
 @Builder
 public class ProblemResponseDTO {
+
   private Long id;
+
   private String title;
+
   private Level level;
+
   private Progress progress;
+
   private Boolean visibility;
+
 }

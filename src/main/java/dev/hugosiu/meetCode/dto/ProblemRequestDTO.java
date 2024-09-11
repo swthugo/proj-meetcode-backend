@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 public class ProblemRequestDTO {
+
   @NotBlank
   private String title;
 
@@ -30,4 +31,5 @@ public class ProblemRequestDTO {
 
   @NotBlank
   private String testScript;
+
 }

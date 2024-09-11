@@ -21,6 +21,7 @@ import java.time.LocalDateTime;
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "submission")
 public class Submission {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
@@ -48,4 +49,5 @@ public class Submission {
 
   @CreatedDate
   private LocalDateTime createAt;
+
 }

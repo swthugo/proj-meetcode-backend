@@ -26,4 +26,5 @@ public class Solution {
   @NotNull
   @Column(nullable = false, length = 25500)
   private String answer;
+
 }

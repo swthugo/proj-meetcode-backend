@@ -20,4 +20,5 @@ public class UserProblemId implements Serializable {
   private Long problemId;
 
   private Long userId;
+
 }
