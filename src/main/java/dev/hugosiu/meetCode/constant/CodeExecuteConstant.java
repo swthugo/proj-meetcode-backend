@@ -1,7 +1,7 @@
 package dev.hugosiu.meetCode.constant;
 
 public class CodeExecuteConstant {
-  public static final String JUNIT_STANDALONE_JAR = "./backend/src/main/resources/junit-platform-console-standalone-1.5.2.jar";
+  public static final String JUNIT_STANDALONE_JAR = "./proj-meetcode-backend/src/main/resources/junit-platform-console-standalone-1.5.2.jar";
   /* Directory */
   public static final String TEMP_FILE_PATH = "./../temp_MeetMeet";
 

@@ -174,6 +174,8 @@ public class AdminProblemController {
             requestDTO.getTestScript()
     );
 
+    System.out.println("runConsoleDTO.isSuccess()" + runConsoleDTO.isSuccess());
+
     if (requestDTO.getVisibility()) {
       problem.setVisibility(runConsoleDTO.isSuccess());
     }
