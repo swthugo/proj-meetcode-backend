@@ -14,5 +14,4 @@ public class TestExecuteDTO {
   private String solution;
 
   private String testScript;
-
 }

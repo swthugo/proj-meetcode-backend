@@ -10,5 +10,4 @@ public class SolutionResponseDTO {
 
   @NotBlank
   private String solution;
-
 }

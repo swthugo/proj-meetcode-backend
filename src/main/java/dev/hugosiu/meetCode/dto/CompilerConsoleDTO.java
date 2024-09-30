@@ -7,8 +7,7 @@ import lombok.Data;
 @Builder
 public class CompilerConsoleDTO {
 
-  private boolean isValid = false;
+  private boolean isValid;
 
   private String message;
-
 }

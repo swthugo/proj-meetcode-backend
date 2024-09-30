@@ -13,12 +13,9 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserProblemId implements Serializable {
-
   @Serial
   private static final long serialVersionUID = -3287715633608041039L;
 
   private Long problemId;
-
   private Long userId;
-
 }

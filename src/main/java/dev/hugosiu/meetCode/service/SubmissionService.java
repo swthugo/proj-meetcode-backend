@@ -17,7 +17,7 @@ public class SubmissionService {
     return submissionRepository.save(submission);
   }
 
-  public Optional<Submission> findById(Long id){
+  public Optional<Submission> findById(Long id) {
     return submissionRepository.findById(id);
   }
 

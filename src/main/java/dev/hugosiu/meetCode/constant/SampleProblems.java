@@ -11,8 +11,8 @@ public class SampleProblems {
                   .description("Given an array of integers `nums` and an `integer` target, return _indices of the two numbers such that they add up to target._\n\nYou may assume that each input would have **exactly one solution**, and you may not use the same element twice.\n\nYou can return the answer in any order.\n\n\n**Example 1:**\n```\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\n```\n**Example 2:**\n```\nInput: nums = [3,2,4], target = 6\nOutput: [1,2]\n```\n**Example 3:**\n```\nInput: nums = [3,3], target = 6\nOutput: [0,1]\n```\n\n**Constraints:**\n\n- `2 <= nums.length <= 104`\n- `109 <= nums[i] <= 109`\n- `109 <= target <= 109`\n- **Only one valid answer exists.**\n \n\n###### Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?")
                   .level(Level.EASY.getValue())
                   .visibility(true)
-                  .placeholder("class Solution {\npublic int add(int a, int b) {\n\n }\n}")
-                  .solution("class Solution {\n\n    public int add(int a, int b) {\n        return a + b; \n    } \n    \n    public int minus(int a, int b){\n        return a - b ;\n    }\n\n}")
+                  .placeholder("class Solution {\n    public int add(int a, int b) {\n        //TODO \n    } \n    \n    public int minus(int a, int b){\n        //TODO\n    }\n}")
+                  .solution("class Solution {\n    public int add(int a, int b) {\n        return a + b; \n    } \n    \n    public int minus(int a, int b){\n        return a - b ;\n    }\n}")
                   .testScript("import org.junit.jupiter.api.DisplayName;\n" +
                           "import org.junit.jupiter.api.Test;\n" +
                           "import org.junit.jupiter.params.ParameterizedTest;\n" +
@@ -71,7 +71,7 @@ public class SampleProblems {
                           "- `-231 <= x <= 231 - 1`")
                   .level(Level.MEDIUM.getValue())
                   .visibility(true)
-                  .placeholder("class Solution {\n    public int reverse(int x)         \n/* implementation */\n    }\n}")
+                  .placeholder("class Solution {\n    public int reverse(int x)         \n        //TODO\n    }\n}")
                   .solution("class Solution {\n" +
                           "    public int reverse(int x) {\n" +
                           "        long reversed = 0; // Use long to handle overflow\n" +
@@ -107,8 +107,8 @@ public class SampleProblems {
                   .description("Determine whether an integer is a palindrome.")
                   .level(Level.HARD.getValue())
                   .visibility(true)
-                  .placeholder("class Solution {\n\n}")
-                  .solution("class Solution {public boolean isPalindrome(int x) { /* implementation */ }}")
+                  .placeholder("class Solution {\n    \n}")
+                  .solution("class Solution {\n    public boolean isPalindrome(int x) {\n        //TODO\n    }\n}")
                   .testScript("import org.junit.jupiter.api.Test;\n" +
                           "import static org.junit.jupiter.api.Assertions.assertTrue;\n" +
                           "\n" +

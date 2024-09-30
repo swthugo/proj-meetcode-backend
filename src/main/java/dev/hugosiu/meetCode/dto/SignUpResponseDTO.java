@@ -8,5 +8,4 @@ import lombok.Data;
 public class SignUpResponseDTO {
 
   private String uID;
-
 }

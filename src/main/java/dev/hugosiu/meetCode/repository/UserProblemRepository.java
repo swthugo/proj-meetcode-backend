@@ -13,12 +13,9 @@ import java.util.List;
 public interface UserProblemRepository extends JpaRepository<UserProblem, Problem> {
 
   @Query("SELECT up FROM UserProblem up " +
-          "INNER JOIN Problem p ON p.id = up.problem.id "+
+          "INNER JOIN Problem p ON p.id = up.problem.id " +
           "WHERE up.user.id = :userId AND p.visibility = true ")
   List<UserProblem> findByUserId(@Param("userId") Long userId);
-
-//  @Query("SELECT up.problem FROM UserProblem up WHERE up.user.id = :userId")
-//  List<Problem> findProblemsByUserId(@Param("userId") Long userId);
 
   @Query("SELECT up FROM UserProblem up " +
           "INNER JOIN User u ON u.id = up.user.id " +
