@@ -24,5 +24,4 @@ public class ProblemRequestForInitDTO {
   private String solution;
 
   private String testScript;
-
 }

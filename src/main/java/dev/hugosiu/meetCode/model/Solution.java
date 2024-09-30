@@ -14,7 +14,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Table(name = "solution")
 public class Solution {
-
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
@@ -26,5 +25,4 @@ public class Solution {
   @NotNull
   @Column(nullable = false, length = 25500)
   private String answer;
-
 }

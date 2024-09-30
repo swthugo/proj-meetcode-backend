@@ -10,5 +10,4 @@ public class RunConsoleDTO {
   private boolean success;
 
   private String message;
-
 }

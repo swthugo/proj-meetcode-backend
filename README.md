@@ -41,5 +41,12 @@ Utilized JUnit Test standalone launcher for comprehensive testing of the applica
 reliability and performance.
 
 
+#### Note:
+- CLI argument for your application: --spring.profiles.active=dev
+- Environment Variables:
+  - ADMIN_LOGIN_CODE=MeetCode;
+  - CORS_ALLOWED_ORIGINS=http://localhost:3000
+
+
 ## Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome!

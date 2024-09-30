@@ -18,5 +18,4 @@ public class TestConsoleDTO {
   private String solution;
 
   private String testScript;
-
 }

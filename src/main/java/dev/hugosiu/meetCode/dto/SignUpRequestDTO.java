@@ -18,5 +18,4 @@ public class SignUpRequestDTO {
   private String password;
 
   private String loginCode;
-
 }
