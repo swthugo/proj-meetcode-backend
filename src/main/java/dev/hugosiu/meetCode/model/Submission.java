@@ -47,6 +47,7 @@ public class Submission {
   private String console;
 
   @CreatedDate
+  @Column(name = "create_at", columnDefinition = "TIMESTAMP")
   private LocalDateTime createAt;
 
 }

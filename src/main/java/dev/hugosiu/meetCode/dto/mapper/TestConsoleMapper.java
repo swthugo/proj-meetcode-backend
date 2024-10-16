@@ -6,6 +6,7 @@ import dev.hugosiu.meetCode.model.enumType.Progress;
 import dev.hugosiu.meetCode.model.enumType.Result;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -110,6 +111,7 @@ public class TestConsoleMapper {
             .result(consoleDTO.isSuccess() ? Result.PASS : Result.FAIL)
             .script(requestDTO.getSolution())
             .console(consoleDTO.getMessage())
+            .createAt(LocalDateTime.now())
             .build();
   }
 
