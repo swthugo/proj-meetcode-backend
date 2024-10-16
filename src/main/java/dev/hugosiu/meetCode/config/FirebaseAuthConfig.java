@@ -18,7 +18,7 @@ public class FirebaseAuthConfig {
 
   @Bean
   FirebaseAuth firebaseAuth() throws IOException {
-    System.out.println("########## FirebaseAuthConfig invoked! ==========");
+    System.out.println("========== FirebaseAuthConfig invoked! ==========");
 
     var options = FirebaseOptions.builder()
             .setCredentials(GoogleCredentials.fromStream(
@@ -26,7 +26,7 @@ public class FirebaseAuthConfig {
             .build();
     var firebaseApp = FirebaseApp.initializeApp(options);
 
-    System.out.println("########## FirebaseAuthConfig finished! ==========");
+    System.out.println("========== FirebaseAuthConfig finished! ==========");
     return FirebaseAuth.getInstance(firebaseApp);
   }
 }

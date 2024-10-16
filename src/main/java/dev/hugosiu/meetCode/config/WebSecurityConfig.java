@@ -19,12 +19,10 @@ public class WebSecurityConfig {
   @Bean
   protected SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
-    System.out.println("########## WebSecurityConfig.securityFilterChain invoked! ==========");
+    System.out.println("========== WebSecurityConfig.securityFilterChain invoked! ==========");
 
     http.cors();
-
     http.csrf().disable();
-
     http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
     http.authorizeHttpRequests(authorize ->
