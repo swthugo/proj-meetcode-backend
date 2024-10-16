@@ -1,3 +1,8 @@
 # Default ignored files
 /shelf/
-src/main/resources/service-account.json
+
+# Ignore service account credentials
+/src/main/resources/service-account.json
+
+# Ignore target directory
+/target/

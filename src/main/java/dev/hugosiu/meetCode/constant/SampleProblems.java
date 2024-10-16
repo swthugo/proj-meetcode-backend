@@ -71,7 +71,7 @@ public class SampleProblems {
                           "- `-231 <= x <= 231 - 1`")
                   .level(Level.MEDIUM.getValue())
                   .visibility(true)
-                  .placeholder("class Solution {\n    public int reverse(int x)         \n        //TODO\n    }\n}")
+                  .placeholder("class Solution {\n    public int reverse(int x){\n        //TODO\n    }\n}")
                   .solution("class Solution {\n" +
                           "    public int reverse(int x) {\n" +
                           "        long reversed = 0; // Use long to handle overflow\n" +
